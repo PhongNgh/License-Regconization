@@ -18,6 +18,7 @@ prev_frame_time = 0
 new_frame_time = 0
 
 vid = cv2.VideoCapture(1)
+# can change to use video
 # vid = cv2.VideoCapture("1.mp4")
 while(True):
     ret, frame = vid.read()
